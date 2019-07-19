@@ -52,11 +52,13 @@ Simplifies the creation process, and speeds up coding process
 Stateful logic is logic that is built into a component. 
 Can be a handle function, setState function, or data formatting logic, or simply the state data itself 
 Usually deals with state in the component.
+Rendering process - everytime state logic changes - then lifecycle method would rerender
 
 
 
 - [ ] What is a custom hook, and what does it mean to compose hooks together?
 
+Unique hook functionality
 A custom hook is a hook you build yourself to pass around component logic via a reusable function.
 Composing hooks together means combining the logic between the two by using one within the other.
 
