@@ -31,10 +31,10 @@ function Login({ touched, errors }){
     )
 }
 export default withFormik({
-    mapPropsToValue(){
+    mapPropsToValue({ username, password }){
         return{
-            username: '',
-            password: ''
+            username: username || '',
+            password: password || ''
         }
     },
 

@@ -24,15 +24,55 @@ In the challenge for this Sprint, you will demonstrate proficiency by creating a
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
+
+
+
+
 - [ ] Why are forms used so often in web applications and software?
+
+They are a great way to capture data about users. 
+Also allows apps and programs to verify that a user is who he/she says he/she is, and keep data secure for that user.
+
+
+
+
 
 - [ ] What advantages are there by using a forms library like Formik?
 
+Formik helps abstract away complex coding necessities that normal HTML forms require you set up.
+i.e.) - Nested form data and/or arrays; wiring up state; validation; error messages
+Simplifies the creation process, and speeds up coding process
+
+
+
+
+
 - [ ] What is stateful logic?
+
+Stateful logic is logic that is built into a component. 
+Can be a handle function, setState function, or data formatting logic, or simply the state data itself 
+Usually deals with state in the component.
+
+
 
 - [ ] What is a custom hook, and what does it mean to compose hooks together?
 
-- [ ] Describe the process of retriving a token from a server and using that token in subsequent API calls.
+A custom hook is a hook you build yourself to pass around component logic via a reusable function.
+Composing hooks together means combining the logic between the two by using one within the other.
+
+
+
+
+
+- [ ] Describe the process of retrieving a token from a server and using that token in subsequent API calls.
+
+To retrieve a token from a server you have to create know the proper endpoint and the specific data types/sturcture needed to properly access the BE. Then set the token in memory on localStorage/cookies of the clients browser.
+
+To then use the token you receive, you could add a Header config request to the API call 
+Another way is to create a function that tells the program to retrieve it from the specific path (in a separate file). Then in the API call file you will import the function and pass it into the API call.
+
+
+
 
 ## Project Set Up
 
